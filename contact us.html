@@ -4,10 +4,11 @@
 			<TITLE>
 				KRISHNA SEEDS
 			</TITLE>
+
 			<link rel="icon" href="./image/logo.png">
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-			<link rel="stylesheet" type="text/css" href="./CSS1/home.css">
-			<link rel="stylesheet" type="text/css" href="./CSS1/contact us.css">
+			<link rel="stylesheet" type="text/css" href="./contact us css/home.css">
+			<link rel="stylesheet" type="text/css" href="./contact us css/contact us.css">
 		</head>
 		<body a link="#009999" vlink="#009999">
 			<div class="div2">
@@ -22,6 +23,50 @@
 						</img>
 					</button>
 				</a>
+		<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (https://www.arthurgareginyan.com)
+    * For full source code, visit https://mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
 				<hr color="black" class="hr1">
 					<br>
 						<center class="headder">
@@ -37,6 +82,7 @@
 			</div>
 			<p/>
 					<font size="19px" face="Times New Roman">
+						
 						<script>
 						function myfun() {
 							var a = document.getElementById("mobilenumber").value;
@@ -62,7 +108,7 @@
 							}
 						}
 						</script>
-						<form onsubmit="return myfun()" align="center" name="" action="https://script.google.com/macros/s/AKfycbxqI6i7vcKfikDtYvyQJ6GF2bqUlqCmwTG32EjccDJfFMDs1SE/exec" method="post" href="index.html">
+						<form onsubmit="return myfun()" align="center" name="" method="post" href="" action="https://script.google.com/macros/s/AKfycbxqI6i7vcKfikDtYvyQJ6GF2bqUlqCmwTG32EjccDJfFMDs1SE/exec">
 								<a class="a3" align="center">
 									<input type ="text" align="center" autocomplete="off" name="name" placeholder="Your Name"/><br/><br/><p/>
 									<input type =email autocomplete="off" name="email address" placeholder="Your Email"/> <br/><br/><p/>					

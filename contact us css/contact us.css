@@ -1,0 +1,42 @@
+.a1{
+	position:absolute;
+	margin-top:50%;
+	margin-left:40%;
+}.a2{
+	position:absolute;
+	margin-top:50%;
+	margin-left:15%;
+}
+.a3 {
+	text-align:center;
+}
+.SEND {
+	BACKGROUND:#ffcc00;
+	border-radius:40px;
+	width:140px;
+	position:absolute;
+	bottom:-60;
+	left:45%;
+}
+.span {
+	font-family:Times New Roman;
+	font-size:15;
+}
+.a4{
+	position:absolute;
+	margin-top:50%;
+	margin-left:-10%;
+}.a5{
+	position:absolute;
+	margin-top:50%;
+	margin-left:-30%;
+}
+.a6{
+	position:absolute;
+	margin-top:45%;
+	margin-left:30%;
+}.a7{
+	position:absolute;
+	margin-top:30%;
+	margin-left:20%;
+}
